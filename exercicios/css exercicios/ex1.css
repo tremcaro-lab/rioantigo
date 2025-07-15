@@ -5,3 +5,9 @@ body{
  Main{
      font-size:x-large
  }
+ P::first-letter{
+    color: aqua;
+ }
+ p:hover{
+    background-color:white;
+ }
