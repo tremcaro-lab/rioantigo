@@ -1,0 +1,10 @@
+p{
+    border-color: aqua;
+    border-style: solid;
+    border-width: 3px;
+}
+h1{
+    border-bottom-color: blue;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+}
