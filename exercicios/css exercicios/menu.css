@@ -9,16 +9,17 @@
 .cabecalho{
    background-color: bisque;
    padding:10px 0px 10px 0px;
-   width: 1600x;
+   width: 1800px;
    margin: 0px;
  }
 .caixa{
-width: 1600px;
+width: 1800px;
 position:relative;
 margin:auto;
 
 }
 .Logo{
+   padding-top: 10px;
    padding-left: 40px;
    
 }
@@ -35,3 +36,15 @@ margin:auto;
    display: inline;
    margin: 0 0 0 15px
  }
+ .hmenu ul li a {
+   color: blue;
+   text-decoration: none;
+   text-transform: uppercase;
+   font-weight: bold;
+   margin-right: 15px;
+ }
+ .hmenu ul li a:hover{
+   color: coral;
+   border-bottom: 1px solid coral
+ }
+ 
