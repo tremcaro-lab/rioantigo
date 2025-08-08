@@ -1,0 +1,64 @@
+.divform {
+    width: 840px; ;
+    background-color: rgb(245, 245, 245);
+    padding: 10px;
+}
+
+.divform fieldset{
+    border: none;
+}
+.label{
+    font-size: 20px;
+    padding: 8px o 6px 0;
+
+}
+
+.divform input[type=text],
+.divform input[type=email]
+.diform input[input=tel]{
+    width: 100%;
+    padding: 10px;
+    margin:6px 0;
+    box-sizing: border-box;
+    border:1px solid #470864;
+    border-radius:4px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+}
+.radio{
+    margin-left: 10px;
+}
+.label-radio{
+    display: inline;
+    padding-left: 6px;
+    color: #470864;
+    font-size: 18px;
+}
+
+.divform select{
+    width: 100%;
+    padding: 10px;
+    border:1px solid #470864;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #470864;
+}
+.minha-text-area{
+    resize: none;
+    box-sizing: border-box;
+    border: 1px solid #470864;
+    border-radius: 4px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+}
+.botoes input[type=reset],
+.botoes input[type=submit] {
+    background-color: #470864;
+    color: #fff;
+    text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     margin: 4px 2px;
+     border-radius: 4px;
+     cursor: pointer;
+}

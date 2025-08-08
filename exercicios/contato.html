@@ -1,12 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css exercicios/menu.css">
+    <link rel="stylesheet" href="css exercicios/contato.css">
+
 </head>
-<body><header class="cabecalho">
+<body>
+    <header class="cabecalho">
      <Div class="caixa">
         <h1 class="Logo">
             <img src="https://radiocuiabanafm.com.br/wp-content/uploads/2025/05/economia.jpg" alt="Logo do site" height="100"
@@ -14,7 +17,7 @@
         </h1>
      <nav class="hmenu">
         <ul>
-     <li><a href="home.html">home</a></li>
+     <li><a href="menu_copy.html">home</a></li>
      <li><a href="fotos.html">fotos</a></li>
      <li><a href="contato.html">contato</a></li>
      <li><a href="sobre.html">sobre</a></li>
@@ -23,10 +26,87 @@
      </nav>
 
      </Div>
-
-
-
     </header>
-    
+    <main class="conteudo-princiapl">
+        <div class="titulo-principal">
+            <h2>Hisórias rio asntigo</h2>
+        </div class="divform">
+        <form name="frmContato" id="IdfrmContato" action="#" method="post">
+        <div>
+            <Fieldset>
+            <form>
+                <div class="label">
+                <label for="id nome" >Nome</label>
+             </div>
+                <input type="text" id="idNome" name="nome" maxlength="70" placeholder="Digite seu nome">
+            </form>
+            <form>
+                <div class="label">
+                <label for="Id email" >Email</label>
+             </div>
+                <input type="email" id="idEmail" name="email" maxlength="100" placeholder="Digite seu email">
+            </form>
+        </div>
+        <form>
+            <div class=label>
+            <label>Telefone </label>
+         </div>
+            <input type="tel" id="idTelefone" name="Telefone" maxlength="13" placeholder="Digite seu telefone">
+        </form>
+        <form>
+            <div class="label">
+            <label>Gênero</label>
+         </div>
+            <input type="radio" id="idgeneroF" name="genero"  value="f" class="radio">
+            <label for="idGeneroF" class="radio-label">Feminino</label>
+
+            <input type="radio" id="idgeneroM" name="genero"  value="M" class="radio">
+            <label for="idGeneroM" class="radio-label">Masculino</label>
+            <input type="radio" id="idgeneroO" name="genero"  value="O" class="radio">
+            <label for="idGeneroO">outros</label>
+        </form>
+        <form>
+            <div class="label">
+            <label>Assunto</label>
+         </div>
+            <select >
+                <option value="0">Seleione...</option>
+                <option value="E">Elogio</option>
+                <option value="c">Crítica</option> 
+                <option value="s">Solicitção</option>
+                <option value="O">Outros</option>
+            </select>
+        </form>
+        <form>
+            <div class="label">
+            <label for="idmensagem">Mensagem</label> 
+         </div>
+         <textarea rows="10" cols="200" id="idMensagem" name="mensagem" 
+         placeholder="Preencha com a mensagem desejada"></textarea>
+         <div class="botões">
+            <input type="reset" value="Limpar">
+            <input type="submit" value="Enviar"> 
+        </div>  
+        </Fieldset>
+        </form>
+    </div>
+    </main>
+     <footer class="rodape">
+        <div>
+           <h3>Senac</h3>
+         </div>
+         <hr>
+         <Div>
+           <h4>Fontes</h4>
+           <ul>
+         <li>email: sobre@rj.senac.br</li>
+         <li>contato:alunos e professor do senac</li>
+        
+           </ul>
+         </Div>
+        
+          </footer>
+         </body>
+         </html>
 </body>
 </html>
