@@ -1,0 +1,25 @@
+main{
+    width: 90%;
+    text-align: center;
+    color: black;
+}
+
+section div{
+    border: solid gray 5px;
+    margin: 10px;
+    padding:5px ;
+}
+
+footer{
+    
+    margin: 10px;
+    padding:5px ;
+    
+    
+}
+footer ul {
+    
+    
+    list-style-type: none;
+     border: solid blue 5px;
+}
