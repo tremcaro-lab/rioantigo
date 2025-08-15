@@ -14,7 +14,9 @@
 .my-bg-color-purple {
     background-color: #470864;
 }
-
+.my-font-normal{
+    font-style: normal;
+}
 .my-bg-color-principal {
     background-color: rgb(231, 178, 153);
 }
@@ -48,7 +50,7 @@
     background-color: #a1cc9c4f;
 }
 
-.my-table-image td {
+.my-table-td-vertical-align td {
     vertical-align: middle;
 }
 
